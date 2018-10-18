@@ -28,19 +28,19 @@ input wire [31:0] Fio253, input wire[31:0] RDFio, output reg [31:0] MuxMemFio);
 			
 			end
 		
-			3'b100:
+			3'b011:
 			begin
 				MuxMemFio <= Fio254;
 			
 			end
 		
-			3'b101:
+			3'b100:
 			begin
 				MuxMemFio <= Fio253;
 			
 			end
 		
-			3'b110:
+			3'b101:
 			begin
 				MuxMemFio <= RDFio;
 			
