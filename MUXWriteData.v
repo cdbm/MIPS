@@ -5,42 +5,42 @@ module MUXWriteData (input wire [2:0] MuxWriteData, input wire [31:0] AluOutFio 
 		
 	always begin
 		case(MuxWriteData)
-			2'b000:
+			3'b000:
 			begin
 			WriteDataFio <= AluOutFio;
 			end
 			
-			2'b001:
+			3'b001:
 			begin
 			WriteDataFio <= EPCFio;
 			end
 			
-			2'b010:
+			3'b010:
 			begin
 			WriteDataFio <= MDRFio;
 			end
 			
-			2'b011:
+			3'b011:
 			begin
 			WriteDataFio <= Menor;
 			end
 			
-			2'b100:
+			3'b100:
 			begin
 			WriteDataFio <= RegDeslFio;
 			end
 			
-			2'b101:
+			3'b101:
 			begin
 			WriteDataFio <= SaidaPCFio;
 			end
 			
-			2'b110:
+			3'b110:
 			begin
 			WriteDataFio <= MuxHiLoFio;
 			end
 			
-			2'b111:
+			3'b111:
 			begin
 			WriteDataFio <= {26'b0,R227};
 			end
