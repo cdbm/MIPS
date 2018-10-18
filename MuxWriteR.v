@@ -1,5 +1,5 @@
 	
-module MuxWriteR( input wire [1:0] RegDst, input wire [4:0] FioVinte, input wire [4:0] FioQuinze, output reg [31:0] RegWriteFio);
+module MuxWriteR( input wire [1:0] RegDst, input wire [4:0] FioVinte, input wire [4:0] FioQuinze, output reg [4:0] RegWriteFio);
 	
 	
 	always begin 
