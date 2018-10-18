@@ -1,5 +1,5 @@
-module MuxULA1( input wire [32:0] Ext26Fio, input wire [32:0] PCULAFio, input wire [32:0] Zero, input wire [32:0] AFio, input wire [32:0] MemoriaFio,
-input wire [3:0] MuxULA1, output reg [32:0] MuxULA1Fio);
+module MuxULA1( input wire [31:0] Ext26Fio, input wire [31:0] PCULAFio, input wire [31:0] Zero, input wire [31:0] AFio, input wire [31:0] MemoriaFio,
+input wire [2:0] MuxULA1, output reg [31:0] MuxULA1Fio);
 
 always begin
 		case(MuxULA1)
