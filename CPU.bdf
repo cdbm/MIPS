@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2009 Altera Corporation
+Copyright (C) 1991-2010 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -1544,10 +1544,6 @@ applicable agreement for further details.
 	(pt 3168 1976)
 )
 (connector
-	(pt 3168 1976)
-	(pt 3504 1976)
-)
-(connector
 	(pt 3800 2200)
 	(pt 3504 2200)
 )
@@ -1625,6 +1621,30 @@ applicable agreement for further details.
 	(pt 5288 2760)
 	(bus)
 )
+(connector
+	(pt 3168 1976)
+	(pt 3504 1976)
+)
+(connector
+	(pt 3504 1976)
+	(pt 5656 1976)
+)
+(connector
+	(pt 5528 2696)
+	(pt 5656 2696)
+)
+(connector
+	(pt 5656 1976)
+	(pt 5656 2696)
+)
+(connector
+	(pt 5536 2848)
+	(pt 5656 2848)
+)
+(connector
+	(pt 5656 2696)
+	(pt 5656 2848)
+)
 (junction (pt 3112 2448))
 (junction (pt 3440 2344))
 (junction (pt 3072 3224))
@@ -1637,3 +1657,5 @@ applicable agreement for further details.
 (junction (pt 3168 1976))
 (junction (pt 3504 2200))
 (junction (pt 3504 2264))
+(junction (pt 3504 1976))
+(junction (pt 5656 2696))
