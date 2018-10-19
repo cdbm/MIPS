@@ -1,8 +1,6 @@
 
 
-module MuxMemoriaEndereco( input wire [2:0] MuxMemoriaEnd, input wire [31:0] SaidaPCFio, input wire [31:0] ALUOutFio, 
-input wire [31:0] Fio255, input wire [31:0] Fio254, 
-input wire [31:0] Fio253, input wire[31:0] RDFio, output reg [31:0] MuxMemFio);
+module MuxMemoriaEndereco( input wire [2:0] MuxMemoriaEnd, input wire [31:0] SaidaPCFio, input wire [31:0] ALUOutFio, input wire[31:0] RDFio, output reg [31:0] MuxMemFio);
 	
 	
 	always begin 
