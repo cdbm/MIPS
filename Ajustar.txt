@@ -1,0 +1,6 @@
+Reset
+Mult Div - Colocar clock
+Implementar instruçoes
+Overflow
+Stack Pointer
+Checar Clock (novas caixas que precisaremos botar)
