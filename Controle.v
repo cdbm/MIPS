@@ -32,6 +32,14 @@ output wire [0:0] LuiControl,
 output wire [0:0] MuxMDR,
 output wire [2:0] ControleBits,
 output wire [0:0] CHi,
-output wire [0:0] CLo);
+output wire [0:0] CLo,
+output wire [0:0] PCReset,
+output wire [0:0] InstRegReset,
+output wire [0:0] BancoRegReset,
+output wire [0:0] AReset,
+output wire [0:0] BReset,
+output wire [0:0] ALUOutReset,
+output wire [0:0] HiReset,
+output wire [0:0] LoReset);
 
-parameter wire [32:0] signal;
+endmodule 
