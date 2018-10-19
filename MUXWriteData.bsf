@@ -26,8 +26,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "MuxWriteData[2..0]" (rect 0 0 95 12)(font "Arial" ))
-		(text "MuxWriteData[2..0]" (rect 21 27 116 39)(font "Arial" ))
+		(text "MuxWriteData[3..0]" (rect 0 0 95 12)(font "Arial" ))
+		(text "MuxWriteData[3..0]" (rect 21 27 116 39)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -78,6 +78,13 @@ applicable agreement for further details.
 		(text "MuxHiLoFio[31..0]" (rect 0 0 89 12)(font "Arial" ))
 		(text "MuxHiLoFio[31..0]" (rect 21 139 110 151)(font "Arial" ))
 		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "LuiFio[31..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "LuiFio[31..0]" (rect 21 155 82 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
 	)
 	(port
 		(pt 248 32)
