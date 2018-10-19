@@ -80,13 +80,6 @@ applicable agreement for further details.
 		(line (pt 0 144)(pt 16 144)(line_width 3))
 	)
 	(port
-		(pt 0 160)
-		(input)
-		(text "R227[4..0]" (rect 0 0 51 12)(font "Arial" ))
-		(text "R227[4..0]" (rect 21 155 72 167)(font "Arial" ))
-		(line (pt 0 160)(pt 16 160)(line_width 3))
-	)
-	(port
 		(pt 248 32)
 		(output)
 		(text "WriteDataFio[31..0]" (rect 0 0 96 12)(font "Arial" ))

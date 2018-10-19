@@ -1,6 +1,6 @@
-module MuxULA2 (input wire [2:0]CRTMuxULA2 ,input wire [31:0] BFio, input wire [31:0] Fio4,
-				input wire [31:0] Ext16Fio, input wire [31:0] Fio1, input wire [31:0] ShiftLFio,
-				input wire [31:0] Fio0, output reg [31:0] MuxULA2Fio);
+module MuxULA2 (input wire [2:0]CRTMuxULA2 ,input wire [31:0] BFio, 
+				input wire [31:0] Ext16Fio,  input wire [31:0] ShiftLFio,
+				 output reg [31:0] MuxULA2Fio);
 				
 	always begin
 		case(CRTMuxULA2)

@@ -1,6 +1,6 @@
 module MUXWriteData (input wire [2:0] MuxWriteData, input wire [31:0] AluOutFio , input wire [31:0] EPCFio , input wire [31:0] MDRFio,
 						input wire [31:0] Menor , input wire [31:0] RegDeslFio , input wire [31:0] SaidaPCFio, 
-		    				input wire [31:0] MuxHiLoFio, input wire [4:0] R227,
+		    				input wire [31:0] MuxHiLoFio, 
 						output reg [31:0] WriteDataFio);	
 		
 	always begin
@@ -42,7 +42,7 @@ module MUXWriteData (input wire [2:0] MuxWriteData, input wire [31:0] AluOutFio 
 			
 			3'b111:
 			begin
-			WriteDataFio <= {26'b0,R227};
+			WriteDataFio <= {24'b0,8'b11100011};
 			end
 			
 			

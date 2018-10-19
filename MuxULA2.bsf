@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 256 176)
+	(rect 16 16 256 144)
 	(text "MuxULA2" (rect 5 0 52 12)(font "Arial" ))
-	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -40,37 +40,16 @@ applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "Fio4[31..0]" (rect 0 0 53 12)(font "Arial" ))
-		(text "Fio4[31..0]" (rect 21 59 74 71)(font "Arial" ))
+		(text "Ext16Fio[31..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "Ext16Fio[31..0]" (rect 21 59 96 71)(font "Arial" ))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "Ext16Fio[31..0]" (rect 0 0 75 12)(font "Arial" ))
-		(text "Ext16Fio[31..0]" (rect 21 75 96 87)(font "Arial" ))
-		(line (pt 0 80)(pt 16 80)(line_width 3))
-	)
-	(port
-		(pt 0 96)
-		(input)
-		(text "Fio1[31..0]" (rect 0 0 53 12)(font "Arial" ))
-		(text "Fio1[31..0]" (rect 21 91 74 103)(font "Arial" ))
-		(line (pt 0 96)(pt 16 96)(line_width 3))
-	)
-	(port
-		(pt 0 112)
-		(input)
 		(text "ShiftLFio[31..0]" (rect 0 0 76 12)(font "Arial" ))
-		(text "ShiftLFio[31..0]" (rect 21 107 97 119)(font "Arial" ))
-		(line (pt 0 112)(pt 16 112)(line_width 3))
-	)
-	(port
-		(pt 0 128)
-		(input)
-		(text "Fio0[31..0]" (rect 0 0 53 12)(font "Arial" ))
-		(text "Fio0[31..0]" (rect 21 123 74 135)(font "Arial" ))
-		(line (pt 0 128)(pt 16 128)(line_width 3))
+		(text "ShiftLFio[31..0]" (rect 21 75 97 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 240 32)
@@ -80,6 +59,6 @@ applicable agreement for further details.
 		(line (pt 240 32)(pt 224 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 224 144)(line_width 1))
+		(rectangle (rect 16 16 224 112)(line_width 1))
 	)
 )
