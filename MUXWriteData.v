@@ -47,6 +47,7 @@ module MUXWriteData (input wire [3:0] MuxWriteData, input wire [31:0] AluOutFio 
 			
 			4'b1000:
 			begin
+			//227
 			WriteDataFio <= {24'b0,8'b11100011};
 			end
 			

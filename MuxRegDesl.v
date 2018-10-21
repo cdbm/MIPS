@@ -1,5 +1,5 @@
 	
-module MuxRegDesl( input wire [1:0] ContShifts, input wire [4:0] Shamt, input wire [31:0] BFio, output reg [31:0] RegWriteFio);
+module MuxRegDesl( input wire [1:0] ContShifts, input wire [4:0] Shamt, input wire [31:0] BFio, output reg [4:0] RegWriteFio);
 	
 	
 	always begin 

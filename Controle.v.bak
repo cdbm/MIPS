@@ -85,7 +85,7 @@ reg [31:0] state;
 				32'd5:
 				begin
 					IRWrite <= 1'b1;
-					state <= 32'd6;
+					state <= 32'd3;
 				end
 				default:
 				begin

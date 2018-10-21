@@ -47,8 +47,8 @@ applicable agreement for further details.
 	(port
 		(pt 224 32)
 		(output)
-		(text "RegWriteFio[31..0]" (rect 0 0 93 12)(font "Arial" ))
-		(text "RegWriteFio[31..0]" (rect 110 27 203 39)(font "Arial" ))
+		(text "RegWriteFio[4..0]" (rect 0 0 87 12)(font "Arial" ))
+		(text "RegWriteFio[4..0]" (rect 116 27 203 39)(font "Arial" ))
 		(line (pt 224 32)(pt 208 32)(line_width 3))
 	)
 	(drawing

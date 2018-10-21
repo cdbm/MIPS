@@ -3,6 +3,7 @@ module MuxPCWriteCond( input wire [1:0]PCWriteCondMux, input wire [0:0] ZeroFio,
 	wire [0:0] NotZero;
 	wire [0:0] OuFio;
 	assign NotZero = ~ ZeroFio;
+	assign OuFio = MenorFio | IgualFio;
 	
 	always begin 
 	
@@ -28,7 +29,7 @@ module MuxPCWriteCond( input wire [1:0]PCWriteCondMux, input wire [0:0] ZeroFio,
 		
 			2'b11:
 			begin
-				MuxPCWriteCondFio <= MenorFio | IgualFio;
+				MuxPCWriteCondFio <= OuFio;
 			
 			end
 		

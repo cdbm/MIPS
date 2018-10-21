@@ -33,9 +33,16 @@ applicable agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "OffsetFio[15..0]" (rect 0 0 80 12)(font "Arial" ))
-		(text "OffsetFio[15..0]" (rect 21 43 101 55)(font "Arial" ))
+		(text "clk[0..0]" (rect 0 0 40 12)(font "Arial" ))
+		(text "clk[0..0]" (rect 21 43 61 55)(font "Arial" ))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "OffsetFio[15..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "OffsetFio[15..0]" (rect 21 59 101 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
 		(pt 192 32)

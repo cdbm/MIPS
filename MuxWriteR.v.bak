@@ -20,14 +20,12 @@ module MuxWriteR( input wire [1:0] RegDst, input wire [4:0] FioVinte, input wire
 		
 			2'b10:
 			begin
-			//31
 				RegWriteFio <= 5'b11111;
 			
 			end
 		
 			2'b11:
 			begin
-			//29
 				RegWriteFio <= 5'b11101;
 			
 			end
